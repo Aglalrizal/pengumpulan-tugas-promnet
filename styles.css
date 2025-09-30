@@ -1,0 +1,124 @@
+:root {
+  --navy-dark: #0a192f;
+  --navy-light: #112240;
+  --text-lightest: #ccd6f6;
+  --text-slate: #8892b0;
+  --accent-color: #64ffda;
+  --border-color: #233554;
+}
+
+body {
+  background-color: var(--navy-dark);
+  color: var(--text-slate);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--navy-light);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+}
+
+h1 {
+  color: var(--text-lightest);
+  font-weight: 700;
+  border-left: 4px solid var(--accent-color);
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: var(--accent-color);
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  background-color: rgba(100, 255, 218, 0.1);
+  border: 1px solid var(--accent-color);
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-size: 0.9rem;
+}
+
+#tabel-tugas {
+  width: 100% !important;
+  border-collapse: collapse;
+}
+
+#tabel-tugas thead th {
+  color: var(--text-lightest);
+  background-color: var(--navy-dark);
+  border-bottom: 2px solid var(--accent-color);
+  text-align: left;
+  font-weight: 600;
+}
+
+#tabel-tugas tbody td {
+  color: var(--text-slate);
+  border-bottom: 1px solid var(--border-color);
+}
+
+#tabel-tugas tbody tr:hover td {
+  background-color: var(--border-color);
+  color: var(--accent-color);
+}
+
+#tabel-tugas a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+#tabel-tugas a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+  color: var(--text-slate) !important;
+}
+
+.dataTables_length {
+  margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+  background-color: var(--navy-dark);
+  color: var(--text-lightest);
+  border: 1px solid var(--border-color);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.dataTables_wrapper .paginate_button {
+  color: var(--text-slate) !important;
+  border: 1px solid transparent;
+  margin: 0 2px;
+  border-radius: 4px;
+}
+
+.dataTables_wrapper .paginate_button.current,
+.dataTables_wrapper .paginate_button.current:hover {
+  background: var(--accent-color) !important;
+  color: var(--navy-dark) !important;
+  border: 1px solid var(--accent-color);
+}
+
+.dataTables_wrapper .paginate_button:hover {
+  background: var(--border-color) !important;
+  color: var(--text-lightest) !important;
+  border: 1px solid var(--border-color);
+}
