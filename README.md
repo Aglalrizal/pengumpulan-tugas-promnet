@@ -1,4 +1,4 @@
-# Panduan Kontribusi Pengumpulan Tugas
+# Panduan Pengumpulan Tugas
 
 Terima kasih telah mengumpulkan tugas! Mohon ikuti langkah-langkah di bawah ini dengan teliti untuk menambahkan data ke dalam daftar.
 
