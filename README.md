@@ -85,3 +85,4 @@ git push origin nama-branch-anda
 - Klik **Create pull request**.
 
 ✅ Tugas dianggap terkumpul setelah Pull Request di-_merge_ oleh dosen/asisten.
+Jika sudah di-_merge_ hasilnya akan terlihat pada [tautan](https://aglalrizal.github.io/pengumpulan-tugas-promnet/) atau https://aglalrizal.github.io/pengumpulan-tugas-promnet/
